@@ -2,4 +2,5 @@
 Private repo for The Planeteers group!
 
 # Running the site locally 
-``` python manage.py runserver ``` from the ``` src ``` folder, then pen ``` localhost:8000 ```.
+``` pip install -r requirements.txt ```
+``` python manage.py runserver ``` from the ``` src ``` folder, then open ``` localhost:8000 ```.
