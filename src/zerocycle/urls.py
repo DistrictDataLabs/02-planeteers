@@ -16,6 +16,6 @@ urlpatterns = patterns('',
 
 if settings.DEBUG:
   urlpatterns += static(settings.STATIC_URL, 
-                          document_root = STATIC_ROOT)
+                          document_root=STATIC_ROOT)
   urlpatterns += static(settings.MEDIA_URL, 
-                          document_root = MEDIA_ROOT)
+                          document_root=MEDIA_ROOT)
