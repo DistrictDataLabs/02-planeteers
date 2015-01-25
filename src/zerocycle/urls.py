@@ -7,10 +7,9 @@ from django.contrib import admin
 admin.autodiscover()
 
 urlpatterns = patterns('',
-    url(r'^index.html', 'zerocycle.views.home', name='home'),
+    url(r'^$', 'zerocycle.views.home', name='home'),
     url(r'^charts.html', 'zerocycle.views.charts', name='charts'),
     url(r'^tables.html', 'zerocycle.views.tables', name='tables'),
-    url(r'^forms.html', 'zerocycle.views.forms', name='forms'),
     
     url(r'^admin/', include(admin.site.urls)),
 )
